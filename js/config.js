@@ -24,12 +24,12 @@ const API_SITES = {
     heimuer: {
         api: 'https://json.heimuer.xyz',
         name: '黑木耳',
-        detail: 'https://heimuer.tv'
+        detail: 'https://heimuer.tv',
     },
     ffzy: {
         api: 'http://ffzy5.tv',
         name: '非凡影视',
-        detail: 'http://ffzy5.tv'
+        detail: 'http://ffzy5.tv',
     },
     tyyszy: {
         api: 'https://tyyszy.com',
@@ -48,12 +48,8 @@ const API_SITES = {
         api: 'https://wolongzyw.com',
         name: '卧龙资源',
     },
-    cjhw: {
-        api: 'https://cjhwba.com',
-        name: '新华为',
-    },
     hwba: {
-        api: 'https://cjwba.com',
+        api: 'https://cjhwba.com',
         name: '华为吧资源',
     },
     jisu: {
@@ -96,11 +92,6 @@ const API_SITES = {
         name: 'souav资源',
         adult: true
     },
-    siwa: {
-        api: 'https://siwazyw.tv',
-        name: '丝袜资源',
-        adult: true
-    },
     r155: {
         api: 'https://155api.com',
         name: '155资源',
@@ -121,16 +112,23 @@ const API_SITES = {
         api: 'https://api.zuidapi.com',
         name: '最大资源'
     },
-    suoni: {
-        api: 'https://suoniapi.com',
-        name: '索尼资源'
-    },
     yutu: {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
         adult: true
-    }
-    // 您可以按需添加更多源
+    },
+    yinghua: {
+        api: 'https://m3u8.apiyhzy.com',
+        name: '樱花资源'
+    },
+    baidu: {
+        api: 'https://api.apibdzy.com',
+        name: '百度云资源'
+    },
+    wujin: {
+        api: 'https://api.wujinapi.me',
+        name: '无尽资源'
+    },
 };
 
 // 添加聚合搜索的配置选项
